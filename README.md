@@ -3,7 +3,7 @@
 ## Summary of business problem & objective:
 Home Credit wishes to expand financial services to the unbanked population, where traditional credit history is limited or even non-existent. To assess creditworthiness, they supplement loan applications with alternative data such as transaction records and telecom behavior. This is commonly referred to as "telco data"
 
-The primary business objective is to predict the likelihood of loan default. 0 indicates No default and 1 represents at least one late payment. Accurately predicting defaults will help Home Credit minimize losses and promote financial inclusion while ensuring responsible lending. This project aims to build a predictive model to assess clients loan repayment ability using available data
+The primary business objective is to predict the likelihood of loan default. 0 indicates No default and 1 represents at least one late payment. Accurately predicting defaults will help Home Credit minimize losses and promote financial inclusion while ensuring responsible lending. This project aims to build a predictive model to assess clients loan repayment ability using available data.
 
 ## Solution to the business problem
 Our solution to this problem is to develop a model that can essentially predict loan defaulters compared to non defaulters. This will help home credit assess loan applications to minimize defaults which lead to losses. Mitigating defaults will increase profits and establish business sustainability. Individually I created a preliminary logistic model in the individual notebook. With my group we created a Catboost model. The catboost model was able to capture non linear data and had better performance metrics than the logistic regression model.
