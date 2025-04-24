@@ -21,7 +21,9 @@ In the group notebook we had some difficulties in regards to performing all the 
 
 
 ## What I learned
-This project was quite essential in grasping the concepts of using machine learning in Python. Personally, I learned that it might not be best to start cleaning the data right away. We should explore it, afterwards split the data and then clean the data. Not splitting the data before cleaning can cause data leakage. Furthermore, I learned how important it is to focus on exploring the data accurately. Its easy for one to devote their attention towards the model, however the explanatory phase is just as essential. Having outliers, null data, dirty data can affect the models results. Therefore, data cleaning must never be neglected. Also, I learned more about scikit learn and its capabilities. I will continue to use scikit learn when I can for Machine learning.
+This project was quite essential in grasping the concepts of using machine learning in Python. Personally, I learned that it might not be best to start cleaning the data right away. We should explore it, afterwards split the data and then clean the data. Not splitting the data before cleaning can cause data leakage. Furthermore, I learned how important it is to focus on exploring the data accurately. Its easy for one to devote their attention towards the model, however the explanatory phase is just as essential. Having outliers, null data, dirty data can affect the models results. Therefore, data cleaning must never be neglected.
+Also, I learned how important it is to downsample/upsample data especially when the classes are imbalanced. In this project 92% of the data was for non defaulters and only 8% was for defaulters. Downsampling was a technique we used in the group project and it enhanced the models predictive power. I will be sure to use this technique whenever I see an imbalanced class for the Target variable in future projects.
+Overall, I learned more about scikit learn and its capabilities. I will continue to use scikit learn when I can for Machine learning.
 
 
 
